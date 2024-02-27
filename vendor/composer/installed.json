@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "babardev/junk-files-scanner",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mbabarbaqar/junk-files-scanner.git",
+                "reference": "b3b449b55d1eb904789837369235a12cc5791ecf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mbabarbaqar/junk-files-scanner/zipball/b3b449b55d1eb904789837369235a12cc5791ecf",
+                "reference": "b3b449b55d1eb904789837369235a12cc5791ecf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "time": "2023-11-22T09:54:17+00:00",
+            "type": "php",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Babardev\\JunkFilesScanner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Babar",
+                    "email": "mbabarbaqar@gmail.com"
+                }
+            ],
+            "description": "Scan file within a project or application to identify as junk and delete from application.",
+            "support": {
+                "issues": "https://github.com/mbabarbaqar/junk-files-scanner/issues",
+                "source": "https://github.com/mbabarbaqar/junk-files-scanner/tree/1.0.0"
+            },
+            "install-path": "../babardev/junk-files-scanner"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
